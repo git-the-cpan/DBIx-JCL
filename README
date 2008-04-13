@@ -35,10 +35,18 @@ This module requires these other modules and libraries:
 
 RATIONALE
 
-Provide a suite of standard functions that can be shared across all batch job scripts used to support database back end tasks. Provide a standardized approach for the development of all back end database job scripts. Centralize the administration and access to configuration data. Enforce coding standards and documentation. Abstract the sql used to support back end processes from the task processing logic, by placing all sqlinto an sql library. This will make maintenance of back end sql a trivial task. Provide generalized logging, notification, and system information functions.
+Provide a suite of standard functions that can be shared across all batch
+job scripts used to support database back end tasks. Provide a standardized
+approach for the development of all back end database job scripts. Centralize
+the administration and access to configuration data. Enforce coding standards
+and documentation. Abstract the sql used to support back end processes from
+the task processing logic, by placing all sqlinto an sql library. This will
+make maintenance of back end sql a trivial task. Provide generalized logging,
+notification, and system information functions.
 
 COPYRIGHT AND LICENCE
 
 Copyright (C) 2008 by Brad Adkins. All rights reserved.
 
-This library is free software; you can redistribute it and/or modify it under the same terms as Perl itself.
+This library is free software; you can redistribute it and/or modify it under
+the same terms as Perl itself.
